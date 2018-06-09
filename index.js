@@ -28,7 +28,7 @@ Pietra.on("message", message => {
   });
   
   Pietra.on("ready", () => {
-	  Pietra.guilds.get('445783719400177667').channels.get('445972301528170519').send('ᴏɪ, ᴇᴜ sᴏᴜ ᴏ ᴘᴇᴀʀʟ 💕');
+Pietra.guilds.get('445783719400177667').channels.get('445972301528170519').send('ᴏɪ, ᴇᴜ sᴏᴜ ᴏ ᴘᴇᴀʀʟ 💕');
 Pietra.user.setPresence({
         status: 'dnd',
         game: {
@@ -38,7 +38,7 @@ Pietra.user.setPresence({
 });
 });
 
-Pietra.login(keys.t);
+Pietra.login(process.env.t);
 
 Pietra.on('ready', async () => {
     console.log("Pearl está on ^^");
